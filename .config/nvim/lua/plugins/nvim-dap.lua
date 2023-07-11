@@ -21,7 +21,7 @@ return {
 		dap.adapters.python = {
 			type = "executable",
 			-- command = "path/to/virtualenvs/debugpy/bin/python",
-			command = os.getenv("HOME") .. "/.local/share/nvim/mason/packages/debugpy/venv/bin/python3",
+			-- command = os.getenv("HOME") .. "/.local/share/nvim/mason/packages/debugpy/venv/bin/python3",
 			args = { "-m", "debugpy.adapter" },
 		}
 

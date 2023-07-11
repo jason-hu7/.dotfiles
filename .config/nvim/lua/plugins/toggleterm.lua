@@ -1,5 +1,6 @@
 return {
 	"akinsho/toggleterm.nvim",
+    event = "BufReadPre",
 	version = "*",
 	config = function()
 		local cl = vim.o.columns

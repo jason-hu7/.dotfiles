@@ -1,6 +1,7 @@
 -- file browser
 return {
     "kyazdani42/nvim-tree.lua",
+    lazy = false,
     module = true,
     cmd = {
         "NvimTreeOpen",

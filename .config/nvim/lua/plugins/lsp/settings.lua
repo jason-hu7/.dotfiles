@@ -81,7 +81,7 @@ require("lspconfig")["tsserver"].setup({
                 includeInlayEnumMemberValueHints = true,
             },
         },
-        javascript = {
+       javascript = {
             inlayHints = {
                 includeInlayParameterNameHints = "all",
                 includeInlayParameterNameHintsWhenArgumentMatchesName = false,
@@ -150,6 +150,10 @@ require("lspconfig")["eslint"].setup({
     flags = lsp_flags,
 })
 require("lspconfig")["cssls"].setup({
+    capabilities = capabilities,
+    flags = lsp_flags,
+})
+require("lspconfig")["marksman"].setup({
     capabilities = capabilities,
     flags = lsp_flags,
 })

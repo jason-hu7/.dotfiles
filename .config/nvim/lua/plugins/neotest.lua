@@ -52,7 +52,7 @@ return {
 					-- Can also be a function to return dynamic value.
 					-- If not provided, the path will be inferred by checking for
 					-- virtual envs in the local directory and for Pipenev/Poetry configs
-					python = tostring(os.getenv("HOME")) .. "/.pyenv/versions/pvt-api/bin/python",
+					python = tostring(os.getenv("HOME")) .. "/.pyenv/versions/plus-api/bin/python",
 				}),
 			},
 			quickfix = {
