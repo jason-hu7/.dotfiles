@@ -1,5 +1,0 @@
-require("general.reloads")
-require("general.options")
-require("general.variables")
-require("general.keybinds")
-require("general.functions")

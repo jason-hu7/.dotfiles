@@ -1,8 +1,2 @@
--- generics
-require("utils")
-
--- vim core settings
-require("general")
-
--- lazy settings & plugins
-require("install-plugins")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
